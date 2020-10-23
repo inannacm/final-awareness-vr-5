@@ -1,14 +1,37 @@
 
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon fixed-top">
+  <%= link_to root_path, class: "navbar-brand" do %>
+   <span style="padding-left: 16px; color: white">AWARENESS VR</span>
+    <% end %>
+
+<div class="d-flex flex-end">
+        <div class="nav-item">
+          <%= link_to "about", about_path, class: "nav-link"%>
+        </div>
+
+          <div class="nav-item">
+          <%= link_to "what it is", what_it_is_path, class: "nav-link" %>
+        </div>
 
 
-<div class="home d-flex justify-content-center align-items-center mt-3";>
 
-  <div class="home-1 d-flex p-5 justify-content-center align-items-center">
+        <div class="nav-item ">
+          <%= link_to "contact", contact_path, class: "nav-link" %>
+        </div>
+</div>
 
-      <div class="test d-flex flex-column p-3 justify-between align-items-center">
+</div>
+
+
+<div class="home d-flex justify-content-center align-items-center ";>
+
+  <div class="home-1 d-flex p-3 justify-content-center align-items-center">
+
+      <div class="test d-flex flex-column justify-between align-items-center">
 
         <div class="p-1"><h1>AWARENESS VR</h1></div>
         <div class="p-1"><h2>A series of meditative exercises in virtual reality</h2></div>
+
 
 
       </div>

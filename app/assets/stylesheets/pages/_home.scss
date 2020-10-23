@@ -3,10 +3,12 @@
 .home {
   // min-height: 100vh;
   // background: linear-gradient(#4c99aa, #98c0c8);
-  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("pink.jpg");
-  height: 900px;
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('pink.png');
+
+  height: 800px;
   background-position: center;
   background-size: cover;
+
   // background-color: rgba(248, 247, 216, 0.9);
 
 }

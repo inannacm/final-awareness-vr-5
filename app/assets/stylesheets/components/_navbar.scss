@@ -29,6 +29,26 @@ a {
   color: white;
   font-family: 'Lora', serif;
   font-weight: bold;
+
+}
+
+a:hover {
+  opacity: .7;
+  color: white;
+}
+
+
+.nav-link-2 {
+display: block;
+padding: 0.5rem 1rem;
+color: #121212;
+font-weight: bold;
+}
+
+.nav-link-2:hover {
+  color: #121212;
+  opacity: .7;
+  text-decoration: none;
 }
 
 
