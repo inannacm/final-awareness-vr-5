@@ -1,8 +1,13 @@
 
 
 .home {
-  min-height: 100vh;
-  background: linear-gradient(#4c99aa, #98c0c8);
+  // min-height: 100vh;
+  // background: linear-gradient(#4c99aa, #98c0c8);
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("pink.jpg");
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  // background-color: rgba(248, 247, 216, 0.9);
 
 }
 
@@ -12,7 +17,7 @@
   h1 {
   color: white;
   font-family: 'Lora', serif;
-  font-size: 70px;
+  font-size: 90px;
   line-height: 90px;
 }
 }

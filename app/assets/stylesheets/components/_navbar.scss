@@ -1,24 +1,32 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+
+  // background: rgba(117, 190, 218, 0.5);
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+
 }
 
 .navbar-lewagon .navbar-brand img {
   width: 20px;
 
+
 }
 
+
 .navbar-brand {
+  color: white;
   font-size: 15px;
-  font-weight: bold;
+ font-weight: bold;
+
  }
 
+
 a {
-   color: #121212;
+   // color: #121212;
+  color: white;
   font-family: 'Lora', serif;
   font-weight: bold;
 }
