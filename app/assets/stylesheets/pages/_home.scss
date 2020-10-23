@@ -3,7 +3,7 @@
 .home {
   // min-height: 100vh;
   // background: linear-gradient(#4c99aa, #98c0c8);
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('pink.png');
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('no head.jpg');
 
   min-height: 100vh;
   background-position: center;
@@ -27,8 +27,9 @@
 h2 {
   color: white;
   font-family: 'Lora', serif;
-  font-size: 28px;
+  font-size: 21px;
   line-height: 90px;
+  opacity: .9;
 }
 
 .profile {
