@@ -3,7 +3,7 @@
 .home {
   // min-height: 100vh;
   // background: linear-gradient(#4c99aa, #98c0c8);
-  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('no head.jpg');
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('no head.jpg');
 
   min-height: 100vh;
   background-position: center;
@@ -55,15 +55,16 @@ h3 {
   width: 150px;
   height: 45px;
   border-radius: 20px;
-  background-color: #559EAE;
+  background-color: #3B4C3B;
   color: white;
   transition-duration: 0.3s;
 
 }
 
  .btn:hover {
-    background-color: #97C0C7;
+    background-color: #3B4C3B;
     color: white;
+    opacity: .8;
   }
 
   .string, .email, .text {
