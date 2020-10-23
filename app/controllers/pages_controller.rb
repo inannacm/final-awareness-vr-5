@@ -2,9 +2,9 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about
+  def project
   end
 
-  def what_it_is
+  def product
   end
 end
