@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="description" content="Meditative, out-of-body virtual reality experiences, prompting exploration into the relationship between our mind and reality.">
-    <meta charset="utf-8">
+
     <meta charset="UTF-8">
-    <meta property="og:title" content="Awareness VR">
-    <meta property="og:image" content="https://awarenessvr.org#{image_path('images/no head.jpg')}">
-    <meta property="og:description" content="Meditative, out-of-body virtual reality experiences, prompting exploration into the relationship between our mind and reality.">
-    <meta property="og:site_name" content="Awareness VR"/>
+    <meta name="description" content="<%= meta_description %>">
+    <meta property="og:title" content="<%= meta_title %>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="<%= request.original_url %>" />
+  <meta property="og:image" content="<%= meta_image %>" />
+  <meta property="og:description" content="<%= meta_description %>" />
+  <meta property="og:site_name" content="<%= meta_title %>" />
 
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
