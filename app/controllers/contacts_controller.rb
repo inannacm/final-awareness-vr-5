@@ -7,10 +7,8 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contacts_params)
     @contact.request = request
     if @contact.deliver
-      flash.now[:error] = nil# flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
-      redirect_to root_path, notice: 'Message sent successfully'
+      redirect_to "http://www.awarenessvr.org"
     else
-      flash.now[:error] = 'Cannot send message.'
       render :new
     end
   end
